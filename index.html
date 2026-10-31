@@ -388,6 +388,26 @@ footer {
   padding:25px 0 10px;
 }
 
+/* FOOTER LINKS STYLE */
+.footer-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #a78bfa;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: #22d3ee;
+  text-decoration: underline;
+}
+
 @media(max-width:450px) {
   body {padding:12px}
   .calculator {padding:18px}
@@ -559,6 +579,12 @@ your remaining profit before making a selling decision.
 <footer>
 © 2026 ProfitPilot. All Rights Reserved.<br>
 Smart decisions. Better profits.
+<div class="footer-links">
+  <a href="https://saqibdev07.github.io/" target="_blank">Portfolio</a>
+  <a href="https://github.com/saqibdev07" target="_blank">GitHub Profile</a>
+  <a href="#privacy">Privacy Policy</a>
+  <a href="#terms">Terms</a>
+</div>
 </footer>
 
 </div>
@@ -650,5 +676,4 @@ block:"start"
 </script>
 
 </body>
-  </html>
-  
+</html>
