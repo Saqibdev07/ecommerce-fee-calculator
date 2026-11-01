@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +6,41 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>ProfitPilot - Smart E-Commerce Calculator</title>
-<meta name="description" content="Calculate your e-commerce profit, marketplace fees and seller margins with ProfitPilot.">
-<meta name="google-site-verification" content="Uvd0VP9Th_2IgA0jw_imPyWnw1KR5QyGBQUWGX0YHwI" />
+
+<meta name="description" content="Calculate your e-commerce profit, marketplace fees and seller margins with ProfitPilot. Stop guessing and start making smarter selling decisions.">
+
+<meta name="google-site-verification" content="Uvd0VP9Th_2IgA0jw_imPyWnw1KR5QyGBQUWGX0YHwI">
+
+<!-- SEO BRAND IDENTITY -->
+<meta name="application-name" content="ProfitPilot">
+<meta name="author" content="ProfitPilot">
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://saqibdev07.github.io/">
+
+<!-- GOOGLE WEBSITE NAME STRUCTURED DATA -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "ProfitPilot",
+  "alternateName": "ProfitPilot Smart Calculator",
+  "url": "https://saqibdev07.github.io/"
+}
+</script>
+
+<!-- OPEN GRAPH -->
+<meta property="og:site_name" content="ProfitPilot">
+<meta property="og:title" content="ProfitPilot - Smart E-Commerce Calculator">
+<meta property="og:description" content="Calculate your e-commerce profit, marketplace fees and seller margins with ProfitPilot.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://saqibdev07.github.io/">
+<meta property="og:locale" content="en_US">
+
+<!-- TWITTER CARD -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ProfitPilot - Smart E-Commerce Calculator">
+<meta name="twitter:description" content="Calculate your e-commerce profit, marketplace fees and seller margins with ProfitPilot.">
 
 <style>
 :root {
@@ -113,25 +147,26 @@ body {
 }
 
 /* E-COMMERCE STICKERS BAR */
+
 .ecommerce-stickers {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin: 15px 0 25px 0;
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  flex-wrap:wrap;
+  margin:15px 0 25px;
 }
 
 .e-badge {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 6px 12px;
-  border-radius: 20px;
-  font-size: 11px;
-  font-weight: bold;
-  color: #a78bfa;
-  display: flex;
-  align-items: center;
-  gap: 5px;
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(255,255,255,0.1);
+  padding:6px 12px;
+  border-radius:20px;
+  font-size:11px;
+  font-weight:bold;
+  color:#a78bfa;
+  display:flex;
+  align-items:center;
+  gap:5px;
 }
 
 /* CARD */
@@ -217,8 +252,14 @@ input:focus,select:focus {
 }
 
 @keyframes showResult {
-  from {opacity:0;transform:translateY(25px)}
-  to {opacity:1;transform:translateY(0)}
+  from {
+    opacity:0;
+    transform:translateY(25px);
+  }
+  to {
+    opacity:1;
+    transform:translateY(0);
+  }
 }
 
 .result-heading {
@@ -388,24 +429,25 @@ footer {
   padding:25px 0 10px;
 }
 
-/* FOOTER LINKS STYLE */
+/* FOOTER LINKS */
+
 .footer-links {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
+  margin-top:10px;
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  flex-wrap:wrap;
 }
 
 .footer-links a {
-  color: #a78bfa;
-  text-decoration: none;
-  transition: 0.2s;
+  color:#a78bfa;
+  text-decoration:none;
+  transition:.2s;
 }
 
 .footer-links a:hover {
-  color: #22d3ee;
-  text-decoration: underline;
+  color:#22d3ee;
+  text-decoration:underline;
 }
 
 @media(max-width:450px) {
@@ -440,7 +482,6 @@ footer {
     how much money you keep after platform fees and costs.
   </p>
 
-  <!-- E-commerce Trust Stickers / Badges -->
   <div class="ecommerce-stickers">
     <div class="e-badge">📦 TikTok Shop Ready</div>
     <div class="e-badge">🛍️ Etsy Verified</div>
@@ -480,7 +521,7 @@ footer {
 </div>
 
 <button class="calculate-btn" onclick="calculate()">
-  ✨ CALCULATE MY PROFIT →
+✨ CALCULATE MY PROFIT →
 </button>
 
 <div class="results" id="results">
@@ -579,6 +620,7 @@ your remaining profit before making a selling decision.
 <footer>
 © 2026 ProfitPilot. All Rights Reserved.<br>
 Smart decisions. Better profits.
+
 <div class="footer-links">
   <a href="https://saqibdev07.github.io/" target="_blank">Portfolio</a>
   <a href="https://github.com/saqibdev07" target="_blank">GitHub Profile</a>
